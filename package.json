@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "description": "calendar component",
   "directories": {
-    "src": "src"
+    "lib": "src"
   },
   "main": "src/index.js",
   "format": "es6",
