@@ -12,18 +12,6 @@ System.config({
     "github:*": "jspm_packages/github/*",
     "npm:*": "jspm_packages/npm/*"
   },
-  packages: {
-    "calendar": {
-      "main": "index.js",
-      "format": "es6",
-      "registry": "jspm"
-    },
-    map: {
-      "calendar":"./calendar.js",
-      "calendar.html":"./calendar.html"
-    }
-  },
-
   map: {
     "babel": "npm:babel-core@5.8.38",
     "babel-runtime": "npm:babel-runtime@5.8.38",

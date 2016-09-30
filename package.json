@@ -1,9 +1,9 @@
 {
-  "name": "calendar",
-  "version": "1.0.0",
+  "name": "aurelia-calendar-component",
+  "version": "1.0.1",
   "description": "calendar component",
   "directories": {
-    "lib": "lib"
+    "src": "src"
   },
   "main": "index.js",
   "format": "es6",
