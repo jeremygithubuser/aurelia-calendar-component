@@ -2,6 +2,9 @@
   "name": "calendar",
   "version": "1.0.0",
   "description": "calendar component",
+  "directories": {
+    "lib": "lib"
+  },
   "main": "lib/index.js",
   "format": "es6",
   "registry": "jspm",
