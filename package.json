@@ -1,6 +1,6 @@
 {
   "name": "aurelia-calendar-component",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "calendar component",
   "directories": {
     "lib": "src"
@@ -14,6 +14,15 @@
   "author": "jeremy bouvier",
   "license": "MIT",
   "jspm": {
+    "directories": {
+      "lib": "src"
+    },
+    "dependencies": {
+      "aurelia-dates": "github:jeremygithubuser/aurelia-dates@master",
+      "aurelia-framework": "npm:aurelia-framework@^1.0.5",
+      "babel-polyfill": "npm:babel-polyfill@^6.16.0",
+      "bootstrap": "github:twbs/bootstrap@^3.3.7"
+    },
     "devDependencies": {
       "babel": "npm:babel-core@^5.8.24",
       "babel-runtime": "npm:babel-runtime@^5.8.24",

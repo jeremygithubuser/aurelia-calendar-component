@@ -1,7 +1,6 @@
 import "babel-polyfill";
-import {Day, dayNames} from "day";
-import {monthNames} from "month";
-import {getNumberOfDaysInMonth} from "month";
+import "bootstrap";
+import {Day, dayNames,getNumberOfDaysInMonth,monthNames} from "aurelia-dates";
 import {bindable} from "aurelia-framework";
 
 export class Calendar {
