@@ -14,14 +14,13 @@ System.config({
   },
   packages: {
     "calendar": {
-      "directories": {
-        "lib": "lib"
-      },
       "main": "index.js",
       "format": "es6",
       "registry": "jspm"
     },
     map: {
+      "calendar":"./calendar.js",
+      "calendar.html":"./calendar.html"
     }
   },
 

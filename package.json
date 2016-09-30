@@ -9,6 +9,17 @@
   "author": "jeremy bouvier",
   "license": "MIT",
   "jspm": {
+    "packages": {
+    "calendar": {
+      "main": "index.js",
+      "format": "es6",
+      "registry": "jspm"
+    },
+    "map": {
+      "calendar":"./calendar.js",
+      "calendar.html":"./calendar.html"
+    }
+    },
     "devDependencies": {
       "babel": "npm:babel-core@^5.8.24",
       "babel-runtime": "npm:babel-runtime@^5.8.24",
