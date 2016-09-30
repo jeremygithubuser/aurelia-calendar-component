@@ -2,7 +2,7 @@
   "name": "calendar",
   "version": "1.0.0",
   "description": "calendar component",
-  "main": "index.js",
+  "main": "lib",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
