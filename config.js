@@ -12,6 +12,18 @@ System.config({
     "github:*": "jspm_packages/github/*",
     "npm:*": "jspm_packages/npm/*"
   },
+  packages: {
+    "calendar": {
+      "directories": {
+        "lib": "lib"
+      },
+      "main": "index.js",
+      "format": "es6",
+      "registry": "jspm"
+    },
+    map: {
+    }
+  },
 
   map: {
     "babel": "npm:babel-core@5.8.38",
