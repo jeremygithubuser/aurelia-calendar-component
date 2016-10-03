@@ -1,3 +1,3 @@
 export function configure(aurelia){
-    aurelia.globalResources(["./calendar"]);
+    aurelia.globalResources(["./calendar.js"]);
 }
